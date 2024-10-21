@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4b2b5;
+  }
+  
+  header {
+    background-color:#a95e60;
+    color:#f6f3f1;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    color:#fbe4d9;
+    text-decoration: none;
+  }
+  
+  /* En-tête "BloomPetals" sous la barre grise */
+  .logo-header {
+    background-color:#f4b2b5;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 0.5rem;
+  }
+  
+  h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .intro {
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #f9ccca;
+    margin-bottom: 2rem;
+  }
+  
+  .gallery {
+    padding: 2rem;
+  }
+  
+  .image-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .image-grid img {
+    width: 200px;
+    height: 145px;
+    object-fit: cover;
+  }
+  
+  .services {
+    background-color: #fbe4d9;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .services-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .service {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .service-content {
+    height: 3rem; /* Limiter la hauteur du texte à 3rem */
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  
+  .service-content.expanded {
+    height: auto; /* Afficher tout le texte quand cliqué */
+  }
+  
+  .read-more {
+    margin-top: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .read-more:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
